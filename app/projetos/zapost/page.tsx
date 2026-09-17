@@ -7,6 +7,8 @@ export const dynamic = "force-static";
 export const metadata: Metadata = {
   title: "Zapost — Estudo de caso | Matheus Almeida Gomes",
   description: "Como o Zapost foi projetado: arquitetura SaaS multi-tenant, geração com IA, editor visual, filas, pagamentos e infraestrutura de produção.",
+  alternates: { canonical: "/projetos/zapost" },
+  openGraph: { title: "Zapost — Estudo de caso | Matheus Almeida Gomes", description: "Arquitetura SaaS multi-tenant, geração com IA, editor visual e infraestrutura de produção." },
 };
 
 const pillars = [

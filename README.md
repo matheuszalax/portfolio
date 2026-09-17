@@ -2,6 +2,8 @@
 
 Site pessoal de Matheus Almeida Gomes, engenheiro de software full-stack. Reúne perfil profissional, stack de trabalho, contato e um estudo de caso do Zapost.
 
+**Site publicado:** [matheus-almeida-gomes.mc-designer027.chatgpt.site](https://matheus-almeida-gomes.mc-designer027.chatgpt.site)
+
 ## Conteúdo
 
 - Página inicial com apresentação, projeto em destaque, experiência e tecnologias.
