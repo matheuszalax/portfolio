@@ -2,15 +2,15 @@
 
 Site pessoal de Matheus Almeida Gomes, engenheiro de software full-stack. Reúne perfil profissional, stack de trabalho, contato e um estudo de caso do Zapost.
 
-**Site publicado:** [matheus-almeida-gomes.mc-designer027.chatgpt.site](https://matheus-almeida-gomes.mc-designer027.chatgpt.site)
+**Site publicado:** [portfolio.zalax.com.br](https://portfolio.zalax.com.br)
 
 ## Conteúdo
 
 - Página inicial com apresentação, projeto em destaque, experiência e tecnologias.
-- Estudo de caso do Zapost com decisões de arquitetura, fluxos de dados e operação.
-- Currículo em PDF para download.
+- Estudo de caso do Zapost com problema, fluxo do produto, decisões e limites das evidências públicas.
+- Currículo atualizado em PDF para download.
 
-As informações profissionais vieram do currículo de Matheus. O estudo de caso descreve a arquitetura em nível conceitual; não divulga código proprietário nem métricas não verificadas.
+As informações profissionais vieram do currículo de Matheus. O estudo de caso descreve a arquitetura em nível conceitual; as amostras do Zapost são demonstrativas e não validam o sistema completo. O site não atribui métricas de uso ou desempenho sem dados auditáveis.
 
 ## Tecnologia
 
