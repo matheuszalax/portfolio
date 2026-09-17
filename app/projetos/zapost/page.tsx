@@ -118,7 +118,7 @@ export default function ZapostCaseStudy() {
               <a href="https://github.com/matheuszalax/zapost-portfolio-pt" target="_blank" rel="noopener noreferrer"><span>02 / DOCUMENTAÇÃO</span><strong>Arquitetura e amostras demonstrativas sanitizadas</strong><ArrowUpRight size={20} aria-hidden="true" /></a>
               <a href="https://github.com/matheuszalax/portfolio" target="_blank" rel="noopener noreferrer"><span>03 / ESTE SITE</span><strong>Código do portfólio e sua implementação web</strong><ArrowUpRight size={20} aria-hidden="true" /></a>
             </div>
-            <div className="evidence-note"><h3>Limites desta apresentação</h3><p>O repositório do Zapost traz recortes demonstrativos, não o código completo de produção. A amostra pública de rate limiting separa consulta e inserção; por isso não demonstra atomicidade sob concorrência, garantia que não reivindico aqui. Métricas auditadas de uso e desempenho e histórico de colaboração ou revisão de código não estão documentados publicamente.</p></div>
+            <div className="evidence-note"><h3>Limites desta apresentação</h3><p>O repositório do Zapost traz recortes demonstrativos, não o código completo de produção. A amostra de rate limiting usa uma decisão atômica em Lua e inclui teste de concorrência; isso não comprova a implementação privada. Métricas auditadas de uso e desempenho e histórico de colaboração ou revisão de código não estão documentados publicamente.</p></div>
           </div>
         </div>
       </section>
