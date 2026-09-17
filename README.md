@@ -1,26 +1,8 @@
 # Portfólio — Matheus Almeida Gomes
 
-Site pessoal de Matheus Almeida Gomes, engenheiro de software full-stack. Reúne perfil profissional, stack de trabalho, contato e um estudo de caso do Zapost.
+Site pessoal com apresentação, contato e estudo de caso do Zapost. O projeto usa Next.js, React, TypeScript e CSS próprio. As informações do estudo de caso distinguem decisões documentadas de resultados ainda não medidos publicamente.
 
-**Site publicado:** [portfolio.zalax.com.br](https://portfolio.zalax.com.br)
-
-## Conteúdo
-
-- Página inicial com apresentação, projeto em destaque, experiência e tecnologias.
-- Estudo de caso do Zapost com problema, fluxo do produto, decisões e limites das evidências públicas.
-- Currículo atualizado em PDF para download.
-
-As informações profissionais vieram do currículo de Matheus. O estudo de caso descreve a arquitetura em nível conceitual; as amostras do Zapost são demonstrativas e não validam o sistema completo. O site não atribui métricas de uso ou desempenho sem dados auditáveis.
-
-## Tecnologia
-
-- Next.js (App Router) com Vinext e React
-- TypeScript
-- CSS responsivo e Tailwind CSS
-- Ícones Lucide
-- Exportação estática para hospedagem no Sites
-
-## Desenvolvimento local
+## Desenvolvimento
 
 Requer Node.js 22 ou superior.
 
@@ -29,27 +11,19 @@ npm ci
 npm run dev
 ```
 
-O endereço local é mostrado no terminal. Para gerar a versão de produção:
+## Build estático
 
 ```bash
 npm run build
 ```
 
-A saída estática fica em `dist/client`. Nenhuma chave de API é necessária para executar o portfólio.
+O Next.js exporta o site para `out/`. Para publicar no Cloudflare Pages, configure o comando de build como `npm run build` e o diretório de saída como `out`. O site não precisa de variáveis de ambiente, banco de dados ou runtime de servidor.
 
 ## Estrutura
 
 - `app/page.tsx`: página inicial.
 - `app/projetos/zapost/page.tsx`: estudo de caso.
-- `app/globals.css`: identidade visual, componentes e responsividade.
-- `public/`: favicon e currículo.
+- `app/globals.css`: identidade visual e responsividade.
+- `public/`: favicon e currículo para download.
 
-## Acessibilidade
-
-O site usa títulos semânticos, descrições para diagramas, estados de foco visíveis, contraste alto e respeito à preferência por movimento reduzido.
-
-## Contato
-
-- [LinkedIn](https://www.linkedin.com/in/matheus-almeida-gomes-dev/)
-- [GitHub](https://github.com/matheuszalax)
-- [E-mail](mailto:matheuszalax@gmail.com)
+O código do portfólio demonstra a implementação desta interface. A documentação técnica do Zapost está no [repositório de arquitetura](https://github.com/matheuszalax/zapost-portfolio-pt).

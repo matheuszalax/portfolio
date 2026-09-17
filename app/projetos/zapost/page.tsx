@@ -2,12 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, ArrowUpRight, Download, ExternalLink } from "lucide-react";
 
-export const dynamic = "force-static";
-
 export const metadata: Metadata = {
   title: "Zapost — Estudo de caso | Matheus Almeida Gomes",
   description: "O problema, o fluxo do produto e as decisões de engenharia por trás do Zapost, com evidências públicas e limites claros.",
-  alternates: { canonical: "/projetos/zapost" },
   openGraph: {
     title: "Zapost — Estudo de caso | Matheus Almeida Gomes",
     description: "Do tema à revisão e exportação: produto, arquitetura e decisões de engenharia do Zapost.",
